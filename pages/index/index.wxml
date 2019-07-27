@@ -1,0 +1,13 @@
+<view class='login-container'>
+  <view class="title">
+    <view class="title_problem">{{title}}</view>
+    <view class="title_btn" bindtap="look">看答案</view>
+  </view>
+
+  <view class="content">
+    <button class="share" data-id="shareBtn" open-type="share">转给朋友猜</button>
+    <view class="answer" hidden="{{hiddenName}}">{{answer}}</view>
+  </view>
+
+  <button class="button" bindtap="nextAnswer">下一个</button>
+</view>

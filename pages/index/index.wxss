@@ -1,0 +1,75 @@
+.title {
+  width: 100%;
+  height: 400rpx;
+  background-color: #e198c6;
+  border: 0rpx #e198c6 none;
+  overflow: hidden;
+}
+
+.title_problem {
+  padding-top: 20rpx;
+  text-align: center;
+  color: white;
+  font-size: 40rpx;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+.answer {
+  padding-top: 20rpx;
+  text-align: center;
+  color: white;
+  font-size: 40rpx;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+.title_btn {
+  width: 250rpx;
+  height: 100rpx;
+  background-color: #00afe3;
+  margin: 160rpx auto;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 20rpx;
+  color: white;
+  box-shadow: 5rpx 5rpx 5rpx #817a71;
+}
+
+.content {
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+  width: 100%;
+  height: 300rpx;
+  margin-top: 20rpx;
+  padding-top: 25rpx;
+  background-color: #e198c6;
+}
+
+.button {
+  width: 200rpx;
+  height: 100rpx;
+  text-align: center;
+  margin: 10rpx auto;
+  box-shadow: 5rpx 5rpx 5rpx #817a71;
+  color: #94a6da;
+  font-weight: bolder;
+}
+
+.share {
+  width: 350rpx;
+  height: 100rpx;
+  background-color: #00afe3;
+  text-align: center;
+  color: white;
+}
+
+.hide{
+ display: none;
+}
+.show{ 
+ display: block;
+}
